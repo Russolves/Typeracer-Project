@@ -1,6 +1,6 @@
 # Typeracer-Project
 This program utilizes the Selenium library to automate the playing of the online game Typeracer. Running the program will open the Google Chrome browser and start a new session as a guest for Typeracer. 
-#Additional Notes
+# Additional Notes
 The project utilizes both Xpath and CSS selectors to identify and interact with the web elements through Selenium's API. Note that the program is set to open the Google Chrome browser in incognito mode; this is to make sure that default Google Chrome browser settings do not interfere with the typeracer session, this can be changed through setting the  Given that there is a variable to adjust how fast the type speed should be, if the typespeed causes words per minute (WPM) to exceed 100 WPM the program will also handle the image to text recognition challenge as well. Note that the program assumes ad-blocker is not installed in the user's web browser. If ad-blocker is installed then this could potentially interfere with the closing of pop-ups during the execution of the challenge method.
 
 # About Typeracer
